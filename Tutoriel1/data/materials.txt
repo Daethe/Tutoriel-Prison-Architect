@@ -1,0 +1,26 @@
+BEGIN Object
+    Name                TutorielTable
+    Width               2
+    Height              1
+    ConstructionTime    5.0
+    MoveSpeddFactor     0.8
+    Price               -50
+    BEGIN Sprite
+        x               0
+        y               0
+        w               4
+        h               2
+        RotateType      4
+    END
+END
+
+BEGIN Room
+    Name                TutorielRoom
+    BEGIN Requirement Type Enclosed END
+    BEGIN Requirement Type Indoor   END
+    BEGIN Requirement Type Object Id TutorielTable END
+    BEGIN Requirement Type Object Id Chair END
+    BEGIN Requirement Type Object Id OfficeDesk END
+    BEGIN Requirement Type MinimumSize x 5 y 5 END
+    BEGIN Contraband Id Drill END
+END
