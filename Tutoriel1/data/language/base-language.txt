@@ -1,0 +1,2 @@
+object_tutorieltable        Tutoriel Table
+room_tutorielroom           Tutoriel Room

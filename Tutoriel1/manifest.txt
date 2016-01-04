@@ -1,0 +1,4 @@
+Name            "Tutoriel"
+Author          "Daethe"
+Description     "Mod créer dans le but du tutoriel de modding"
+IsTranslation   false
